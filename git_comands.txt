@@ -1,0 +1,55 @@
+1) git inint
+
+2) git status
+
+3) git log (показать комиты)
+
+4) git add <file name> or git add '*.<file format>' (добавить файлы для отслеживания)
+
+5) git commit -m 'name of what you've done' 
+
+6) git remote add origin <adress> (заливка удаленного [локальнго] репозитория)
+
+7) git push -u origin master (заливка на сервер)
+
+8) git pull origin master (стащить себе копию ветки)
+
+9) git diff HEAD   (что изменилось с момента последней фиксации)
+
+10) git diff --staged  (разница меж файлами, которые мы подготовили к коммиту)
+
+11) git reset <file name.format>   (убрать файл из подготовки к коммиту)
+
+12) git checkout -- <file name.format> (возвращение файла к тому, каким он был во время последнего коммита)
+
+13) git branch <name>  (создание ветки)
+
+14) git checkout <name>  (переключение ветки)
+
+15) git rm '*.txt'  (удаление)
+
+16) git merge <branch name>  (слияние веток)
+
+17) git branch -d <branch name>  (удаление ветки)
+
+18) git clone <adress>  (копирование репозитория с инета к себе в локалку)
+
+19) git fetch <branch name> (копировать все ветки репозитория)
+
+20) ls (просмотр списка файлов)
+
+21) git checkout <branch name> <file name>  (стащить себе файл с ветки)
+
+22) git reset --hard <commit name>
+
+22) git add -A  (добавление всех файлов)
+
+23) git blame (узнать, кто совершил ошибку)
+
+24) touch <name> (создание в консоли)
+
+25) rm <name> (удаление из консоли)
+
+19) ls (просмотр списка файлов)
+
+
